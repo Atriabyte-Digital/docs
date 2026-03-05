@@ -15,17 +15,11 @@
     "products": [
       {
         "product": "Dr Logbook",
-        "groups": [
+        "tabs": [
           {
-            "group": "Get Started",
+            "tab": "Untitled Tab",
             "pages": [
-              "intro"
-            ]
-          },
-          {
-            "group": "First Steps",
-            "pages": [
-              "fs-ada"
+              "get"
             ]
           }
         ]
