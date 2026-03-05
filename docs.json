@@ -93,7 +93,10 @@
         "product": "Elythos",
         "tabs": [
           {
-            "tab": "Guides"
+            "tab": "Guides",
+            "pages": [
+              "get-started"
+            ]
           },
           {
             "tab": "Release Notes"
