@@ -15,82 +15,23 @@
     "products": [
       {
         "product": "Dr Logbook",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Guides",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
-                ]
-              },
-              {
-                "group": "Customization",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "AI tools",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
-              }
+            "group": "Get Started",
+            "pages": [
+              "intro"
             ]
           },
           {
-            "tab": "API reference",
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
-                ]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
-                ]
-              }
+            "group": "First Steps",
+            "pages": [
+              "fs-ada"
             ]
-          },
-          {
-            "tab": "Untitled Tab"
           }
         ]
       },
       {
-        "product": "Elythos",
-        "tabs": [
-          {
-            "tab": "Guides",
-            "pages": [
-              "get-started"
-            ]
-          },
-          {
-            "tab": "Release Notes"
-          }
-        ]
+        "product": "Elythos"
       }
     ]
   },
@@ -103,16 +44,12 @@
       {
         "label": "Support",
         "href": "mailto:support@atriabyte.com"
-      },
-      {
-        "label": "Products",
-        "href": "https://www.atriabyte.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Επικοινωνία",
+      "href": "https://www.atriabyte.com/support"
     }
   },
   "contextual": {
