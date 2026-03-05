@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "luma",
   "name": "Atriabyte Digital Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
+  },
   "navigation": {
     "products": [
       {
@@ -100,6 +103,10 @@
       {
         "label": "Support",
         "href": "mailto:support@atriabyte.com"
+      },
+      {
+        "label": "Products",
+        "href": "https://www.atriabyte.com"
       }
     ],
     "primary": {
@@ -125,5 +132,8 @@
       "x": "https://x.com/atriabyte",
       "linkedin": "https://www.linkedin.com/company/atriabytedigital"
     }
+  },
+  "interaction": {
+    "drilldown": false
   }
 }
